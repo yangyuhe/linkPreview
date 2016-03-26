@@ -141,7 +141,7 @@ function GetImgTask(){
 				if (attrs != null)
 					for (var i = 0; i < attrs.length; i++)
 						if (attrs[i].name == 'src')
-							if(attrs[i].value!=null && /(\.jpg|\.png|\.jpeg)$/.test(attrs[i].value))
+							if(attrs[i].value!=null && !/(\.gif|\.icon)$/.test(attrs[i].value))
 							this.result.push(attrs[i].value);
 			}
 		}
