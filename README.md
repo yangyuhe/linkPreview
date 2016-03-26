@@ -9,7 +9,7 @@ this is a npm package used for extract appropriate title,des,content and imgs fr
  2. **here is the usage**
  
 
-    var linkPreviewHelper=require('linkPreview'); 
+    var linkPreviewHelper=require('linkPreview');  
     linkPreviewHelper.parse(url).then(succallcallback,errorcallback);
 
     
